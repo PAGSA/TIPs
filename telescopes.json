@@ -59,6 +59,67 @@
 				"firstlight": "2022"
 			}
 		]
-	}
+	},
+
+	{	
+                "name": "Chandra X-Ray Observatory",
+                "nameshort": "Chandra",
+                "location": "Elliptical high Earth orbit of period 64 hours 18 minutes (closest approach of 16000 km, farthest of 139000 km)",
+                "primirror": "Each mirror 83.3 cm in length, outer diameter of 1.2 m, mirrors have an effective area of 400 sq. cm @ 1 keV",
+                "fov": "1.0&deg diameter",
+                "angres": "0.5&rdquo;",
+                "image": "./img/413px-Chandra_artist_illustration.jpg",
+                "website": "https://chandra.harvard.edu, https://cxc.harvard.edu/",
+                "etc": "https://cxc.harvard.edu/toolkit/pimms.jsp",
+                "instruments" : [
+                        {
+                                "name": "ACIS",
+                                "namelong": "Advanced CCD Imaging Spectrometer",
+                                "type": "Imager, spectrometer",
+                                "wavelengths": "",
+				"energies": "0.2&ndash;10 keV",
+                                "resolution": "0.5&rdquo;",
+                                "sensitivity": "4x10^-15 ergs-cm^-2 sec^-1 in 10^5 s",
+                                "fov": "1.0&deg diameter",
+                                "targets": "",
+                                "firstlight": "August 19, 1999"
+                        },
+                        {
+                                "name": "HRC",
+                                "namelong": "High Resolution Camera",
+                                "type": "Imager",
+                                "wavelengths": "",
+				"energies": "0.1&ndash;10 keV",
+                                "resolution": "<0.5&rdquo;",
+                                "time resolution": "16 &mu;s",
+                                "sensitivity": "4x10^-15 ergs-cm^-2 sec^-1 in 10^5 s",
+                                "fov": "31&rsquo; x 31&rsquo;",
+                                "targets": "",
+                                "firstlight": ""
+                        },
+                        {
+                                "name": "HETGS",
+                                "namelong": "High Energy Transmission Grating Spectrometer",
+                                "type": "Spectrometer",
+                                "wavelengths": "",
+				"energies": "0.4&ndash;10 keV",
+                                "resolution": "R=60&ndash;1000 over energy range 0.4&ndash;10 keV",
+                                "fov": "",
+                                "targets": "",
+                                "firstlight": "2022"
+                        },
+                        {
+                                "name": "LETGS",
+                                "namelong": "Low Energy Transmission Grating Spectrometer",
+                                "type": "Spectrometer",
+                                "wavelengths": "",
+				"energies": "0.08&ndash;2 keV",
+                                "resolution": "R=40&ndash;2000 over energy range 0.09&ndash;3 keV",
+                                "fov": "",
+                                "targets": "",
+                                "firstlight": ""
+                        }
+                ]
+        }
 ]
 }
